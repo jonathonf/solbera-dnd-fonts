@@ -1,18 +1,19 @@
 # Summary
 
-This is a copy of Solbera's CC-BY-SA-4.0 fonts taken from [his Reddit thread](https://www.reddit.com/r/UnearthedArcana/comments/3vpphx/5e_font_package_embeddable_cc_edition/), combined with Ryrok's fixes from [this Reddit thread](https://www.reddit.com/r/UnearthedArcana/comments/4loka0/fixed_versions_of_solberas_fonts/).
+This is a copy of Solbera's CC-BY-SA-4.0 fonts taken from [his Reddit thread](https://www.reddit.com/r/UnearthedArcana/comments/3vpphx/5e_font_package_embeddable_cc_edition/), combined with Ryrok's fixes from [this Reddit thread](https://www.reddit.com/r/UnearthedArcana/comments/4loka0/fixed_versions_of_solberas_fonts/) and fixes and additions by [Ners](https://www.reddit.com/r/UnearthedArcana/comments/71wzc2/new_indesign_template_and_open_source_fonts/) ("Remake").
 
 The following table contains names and usage details:
 
-| Original Font          | Solbera's Font         | [Usage](http://taxidermicowlbear.weebly.com/dd-fonts.html) |
-| ---------------------- | ---------------------- | ------ |
-| Scala Sans             | Scaly Sans             | Body text |
-| Scala Sans Caps        | Scaly Sans Caps        | Monster Manual quotes |
-| Modesto Bold Condensed | Nodesto Caps Condensed | Book and card titles |
-| Mrs Eaves Small Caps   | Mr Eaves Small Caps    | Headings |
-| Bookmania              | Bookinsanity           | Tables |
-| Dai Vernon Misdirect   | Zatanna Misdirection   | Titles of tables |
-| (unknown )             | Solbera Imitation      | Drop caps |
+| Original Font          | Solbera's/Ners' Font         | [Usage](http://taxidermicowlbear.weebly.com/dd-fonts.html) |
+| ---------------------- | ---------------------------- | --------------------- |
+| Scala Sans             | Scaly Sans (Remake)          | Body text             |
+| Scala Sans Caps        | Scaly Sans Caps              | Monster Manual quotes |
+| Modesto Bold Condensed | Nodesto Caps Condensed       | Book and card titles  |
+| Mrs Eaves Small Caps   | Mr Eaves Small Caps (Remake) | Headings              |
+| Bookmania              | Bookinsanity (Remake)        | Tables                |
+| Dai Vernon Misdirect   | Zatanna Misdirection         | Titles of tables      |
+| (unknown)              | Solbera Imitation            | Drop caps             |
+| (unknown)              | Dungeon Drop Case (Ners)     | Drop caps             |
 
 ---
 
