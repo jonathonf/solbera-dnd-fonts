@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "Bookinsanity";
+    src: 
+        local("Bookinsanity Remake"),
+        local("Bookinsanity"),
+        url('./Bookinsanity/Bookinsanity.otf'),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Bookinsanity/Bookinsanity.otf") format("opentype");
+}
+@font-face {
+    font-family: "Bookinsanity";
+    src: 
+        local("Bookinsanity Remake"),
+        local("Bookinsanity"),
+        url('./Bookinsanity/Bookinsanity Bold Italic.otf'),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Bookinsanity/Bookinsanity%20Bold%20Italic.otf") format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Bookinsanity";
+    src: 
+        local("Bookinsanity Remake"),
+        local("Bookinsanity"),
+        url('./Bookinsanity/Bookinsanity Bold.otf'),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Bookinsanity/Bookinsanity%20Bold.otf") format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Bookinsanity";
+    src: 
+        local("Bookinsanity Remake"),
+        local("Bookinsanity"),
+        url('./Bookinsanity/Bookinsanity Italic.otf'),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Bookinsanity/Bookinsanity%20Italic.otf") format("opentype");
+    font-style: italic;
+}
+@font-face {
+    font-family: "Zatanna Misdirection";
+    src: 
+        local("Zatanna Misdirection Remake"),    
+        local("Zatanna Misdirection"),
+        url('./Zatanna Misdirection/Zatanna Misdirection.otf'),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Zatanna%20Misdirection/Zatanna%20Misdirection.otf") format("opentype");
+}
+@font-face {
+    font-family: "Zatanna Misdirection";
+    src: 
+        local("Zatanna Misdirection Remake"),    
+        local("Zatanna Misdirection"),
+        url('./Zatanna Misdirection/Zatanna Misdirection Bold Italic.otf'),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Zatanna%20Misdirection/Zatanna%20Misdirection%20Bold%20Italic.otf") format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Zatanna Misdirection";
+    src: 
+        local("Zatanna Misdirection Remake"),    
+        local("Zatanna Misdirection"),
+        url('./Zatanna Misdirection/Zatanna Misdirection Bold.otf'),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Zatanna%20Misdirection/Zatanna%20Misdirection%20Bold.otf") format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Zatanna Misdirection";
+    src: 
+        local("Zatanna Misdirection Remake"),    
+        local("Zatanna Misdirection"),
+        url('./Zatanna Misdirection/Zatanna Misdirection Italic.otf'),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Zatanna%20Misdirection/Zatanna%20Misdirection%20Italic.otf") format("opentype");
+    font-style: italic;
+}
+@font-face {
+    font-family: "Nodesto Caps Condensed";
+    src: 
+        local("Nodesto Caps Condensed"),
+        url('./Nodesto Caps Condensed/Nodesto Caps Condensed.otf'),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed.otf") format("opentype");
+}
+@font-face {
+    font-family: "Nodesto Caps Condensed";
+    src: 
+        local("Nodesto Caps Condensed"),
+        url('./Nodesto Caps Condensed/Nodesto Caps Condensed Bold Italic.otf'),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed%20Bold%20Italic.otf") format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Nodesto Caps Condensed";
+    src: 
+        local("Nodesto Caps Condensed"),
+        url('./Nodesto Caps Condensed/Nodesto Caps Condensed Bold.otf'),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed%20Bold.otf") format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Nodesto Caps Condensed";
+    src: 
+        local("Nodesto Caps Condensed"),
+        url('./Nodesto Caps Condensed/Nodesto Caps Condensed Italic.otf'),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed%20Italic.otf") format("opentype");
+    font-style: italic;
+}
+@font-face {
+    font-family: "Mr Eaves Small Caps";
+    src: 
+        local("Mr Eaves Small Caps"),
+        url('./Mr Eaves/Mr Eaves Small Caps.otf'),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Mr%20Eaves/Mr%20Eaves%20Small%20Caps.otf") format("opentype");
+}
+@font-face {
+    font-family: "Scaly Sans";
+    src: 
+        local("Scaly Sans"),
+        url('./Scaly Sans/Scaly Sans.otf'),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans/Scaly%20Sans.otf") format("opentype");
+}
+@font-face {
+    font-family: "Scaly Sans";
+    src: 
+        local("Scaly Sans"),
+        url('./Scaly Sans/Scaly Sans Bold Italic.otf'),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans/Scaly%20Sans%20Bold%20Italic.otf") format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Scaly Sans";
+    src: 
+        local("Scaly Sans"),
+        url('./Scaly Sans/Scaly Sans Bold.otf'),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans/Scaly%20Sans%20Bold.otf") format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Scaly Sans";
+    src: 
+        local("Scaly Sans"),
+        url('./Scaly Sans/Scaly Sans Italic.otf'),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans/Scaly%20Sans%20Italic.otf") format("opentype");
+    font-style: italic;
+}
+@font-face {
+    font-family: "Scaly Sans Caps";
+    src: 
+        local("Scaly Sans Caps"),
+        url('./Scaly Sans Caps/Scaly Sans Caps.otf'),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans%20Caps/Scaly%20Sans%20Caps.otf") format("opentype");
+}
+@font-face {
+    font-family: "Scaly Sans Caps";
+    src: 
+        local("Scaly Sans Caps"),
+        url('./Scaly Sans Caps/Scaly Sans Caps Bold Italic.otf'),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans%20Caps/Scaly%20Sans%20Caps%20Bold%20Italic.otf") format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Scaly Sans Caps";
+    src: 
+        local("Scaly Sans Caps"),
+        url('./Scaly Sans Caps/Scaly Sans Caps Bold.otf'),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans%20Caps/Scaly%20Sans%20Caps%20Bold.otf") format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Scaly Sans Caps";
+    src: 
+        local("Scaly Sans Caps"),
+        url('./Scaly Sans Caps/Scaly Sans Caps Italic.otf'),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans%20Caps/Scaly%20Sans%20Caps%20Italic.otf") format("opentype");
+    font-style: italic;
+}
+@font-face {
+    font-family: "Solbera Imitation";
+    src: 
+        local("Solbera Imitation"),
+        url('./Solbera Imitation/Solbera Imitation.otf'),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Solbera%20Imitation/Solbera%20Imitation.otf") format("opentype");
+}
+@font-face {
+    font-family: "Dungeon Drop Case";
+    src: 
+        local("Dungeon Drop Case"),
+        url('/Dungeon Drop Case/Dungeon Drop Case.otf'),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Dungeon%20Drop%20Case/Dungeon%20Drop%20Case.otf") format("opentype");
+}
