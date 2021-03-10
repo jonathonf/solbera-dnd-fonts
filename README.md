@@ -6,12 +6,12 @@ The following table contains names and usage details:
 
 | Original Font          | Solbera's/Ners' Font         | [Usage](http://taxidermicowlbear.weebly.com/dd-fonts.html) |
 | ---------------------- | ---------------------------- | --------------------- |
-| Scala Sans             | Scaly Sans (Remake)          | Body text             |
+| Bookmania              | Bookinsanity (Remake)        | Body text             |
 | Scala Sans Caps        | Scaly Sans Caps              | Monster Manual quotes |
 | Modesto Bold Condensed | Nodesto Caps Condensed       | Book and card titles  |
 | Mrs Eaves Small Caps   | Mr Eaves Small Caps (Remake) | Headings              |
-| Bookmania              | Bookinsanity (Remake)        | Tables                |
 | Dai Vernon Misdirect   | Zatanna Misdirection         | Titles of tables      |
+| Scala Sans             | Scaly Sans (Remake)          | Tables                |
 | (unknown)              | Solbera Imitation            | Drop caps             |
 | (unknown)              | Dungeon Drop Case (Ners)     | Drop caps             |
 
