@@ -13,9 +13,11 @@ Each user agrees to have read and abide by these rules, otherwise the publisher 
 ● 1. **Non-commercial use.** The license allows community members to make material for strictly non-commercial use.
 ● 2. **Legal notice.** On any material using one or more elements of the Fateforge Graphics Kits , the user shall put the following notice:
 
-``[Unofficial game aid, website, module, etc.] for Fateforge created by [your name]. 
+```
+[Unofficial game aid, website, module, etc.] for Fateforge created by [your name]. 
 Uses copyrighted content © Agate RPG, courtesy of the publisher under the VTU license.
-Join the community: www.Fateforge-rpg.com/``
+Join the community: www.Fateforge-rpg.com/
+```
 
 ● 3. **Respect for the original work.** Creations must not damage the image of the game. Unless authorized in writing, users may not modify in any way the visuals, illustrations and graphics made available in the Fateforge Graphics Kits. The only exception concerns the scrolls and backgrounds, which may be adapted and modified to suit the layout.
 ● 4. **Clarity of positioning.** Community creations should not be confused with official range material.
