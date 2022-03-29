@@ -1,0 +1,53 @@
+{
+  "name": "solbera-dnd-fonts",
+  "version": "1.0.0",
+  "author": {
+    "name": "Solbera",
+    "email": "https://www.reddit.com/r/UnearthedArcana/comments/3vpphx/5e_font_package_embeddable_cc_edition/"
+  },
+  "contributors": [
+    {
+      "name": "Ryrok",
+      "email": "https://www.reddit.com/r/UnearthedArcana/comments/4loka0/fixed_versions_of_solberas_fonts/"
+    },
+    {
+      "name": "Ners",
+      "email": "https://www.reddit.com/r/UnearthedArcana/comments/71wzc2/new_indesign_template_and_open_source_fonts/"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "jonathonf",
+      "url": "https://github.com/jonathonf/"
+    },
+    {
+      "name": "ryceg",
+      "url": "https://github.com/ryceg"
+    }
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public --no-clear",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.0.0",
+    "svelte-check": "^2.0.0",
+    "svelte-preprocess": "^4.0.0",
+    "@rollup/plugin-typescript": "^8.0.0",
+    "typescript": "^4.0.0",
+    "tslib": "^2.0.0",
+    "@tsconfig/svelte": "^2.0.0"
+  },
+  "dependencies": {
+    "sirv-cli": "^2.0.0"
+  }
+}
