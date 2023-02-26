@@ -43,6 +43,7 @@ await Promise.all(Object.keys(fontFaces).map(async fontName => {
     .join(', '))
   const fontStyles = await Promise.all(fileNames.map(async fileName => {
   let css = await readFile(`dist/${fileName}.css`, 'utf8')
+  // TODO: Consider replacing the messy workarounds by hand-written stylesheets
   // Work around bugs in fontfacegen or fontforge
   if (/font-weight: italic;/.test(css)) {
     css = css
@@ -57,6 +58,10 @@ await Promise.all(Object.keys(fontFaces).map(async fontName => {
   if (/font-weight: regular;/.test(css)) {
     css = css.replace(/font-weight: regular;/, 'font-weight: normal;')
   }
+  if (fontName === 'Mr Eaves Small Caps') {
+    css = css.replace(/url\("Mr Eaves Small Caps\.svg#MrEavesSCRemakeMedium"\) format\("svg"\);/,
+      `$&\n    font-feature-settings: "smcp" on;`)
+  }
   return css
     // Use the regular font name for all font faces
     .replace(/font-family: "[^"]+"/g, `font-family: "${fontName}"`)
@@ -66,7 +71,7 @@ await Promise.all(Object.keys(fontFaces).map(async fontName => {
       `local("${fontName}"),\n         $&`)
     // Insert the "opentype" font format
     .replace(/url\("([^."]+).ttf"\) format\("ttf"\),/g,
-      `url("$1.ttf") format("ttf"),\n         ` +
+      `$&\n         ` +
       `url("$1.otf") format("opentype"),`)
   }))
   // Delete the initially created stylesheets
