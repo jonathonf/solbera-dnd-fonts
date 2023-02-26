@@ -2,6 +2,22 @@
 
 This is a copy of Solbera's CC-BY-SA-4.0 fonts taken from [his Reddit thread](https://www.reddit.com/r/UnearthedArcana/comments/3vpphx/5e_font_package_embeddable_cc_edition/), combined with Ryrok's fixes from [this Reddit thread](https://www.reddit.com/r/UnearthedArcana/comments/4loka0/fixed_versions_of_solberas_fonts/) and fixes and additions by [Ners](https://www.reddit.com/r/UnearthedArcana/comments/71wzc2/new_indesign_template_and_open_source_fonts/) ("Remake") with some minor adjustment made by [LUCASTUCIOUS](http://github.com/lucastucious).
 
+Use NPM to install the package or to download unpack the tarball with them:
+
+    npm i -D solbera-dnd-fonts
+    npm pack solbera-dnd-fonts
+
+The structure of the distribution package:
+
+    dist
+    ├── Bookinsanity.woff2
+    ├── Bookinsanity Bold.woff2
+    ├── Bookinsanity Italic.woff2
+    ├── Bookinsanity Bold Italic.woff2
+    ├── ... and the rest of the formats eot, otf, svg, ttf, woff
+    ├── Bookinsanity.css
+    └── ... and the rest of fonts
+
 The following table contains names and usage details:
 
 | Original Font          | Solbera's/Ners' Font         | [Usage](http://taxidermicowlbear.weebly.com/dd-fonts.html) |

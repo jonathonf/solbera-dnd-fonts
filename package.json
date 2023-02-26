@@ -1,0 +1,53 @@
+{
+  "name": "solbera-dnd-fonts",
+  "version": "1.0.0",
+  "description": "Solbera's DND5e fonts",
+  "homepage": "https://github.com/jonathonf/solbera-dnd-fonts#readme",
+  "author": "Jonathon <559369+jonathonf@users.noreply.github.com>",
+  "contributors": [
+    "Peter Lucas <peterlucas2804@gmail.com>",
+    "Ferdinand Prantl <prantlf@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathonf/solbera-dnd-fonts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonathonf/solbera-dnd-fonts/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonathonf/solbera-dnd-fonts/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepare": "rm.js -rf \"dist/*\" && mkdir -p dist && cp.js \"*/*.otf\" dist && node build/generate",
+    "test": "denolint && node build/test"
+  },
+  "devDependencies": {
+    "@unixcompat/cp.js": "2.0.0",
+    "@unixcompat/mkdir.js": "1.1.2",
+    "@unixcompat/rm.js": "2.0.0",
+    "denolint": "2.0.7",
+    "fontfacegen": "0.5.1",
+    "untap-inprocess": "1.0.0"
+  },
+  "keywords": [
+    "homebrew",
+    "fonts",
+    "dnd5e",
+    "dnd",
+    "dungeons",
+    "dragons",
+    "dungeons-and-dragons"
+  ]
+}
