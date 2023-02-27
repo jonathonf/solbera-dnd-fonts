@@ -1,4 +1,4 @@
-import { readdir } from 'node:fs/promises'
+import { readdir, readFile, writeFile } from 'node:fs/promises'
 import fontfacegen from 'fontfacegen'
 
 // Read all otf font file names
@@ -15,3 +15,9 @@ for (const fontFile of fontFiles) {
   fontfacegen({ source: `dist/${fontFile}`, dest: 'dist', css })
   console.log()
 }
+
+// Update paths in the complete stylesheet
+console.log('stylesheet.css')
+let stylesheet = await readFile('stylesheet.css', 'utf8')
+stylesheet = stylesheet.replace(/\burl\("([^"]+)"\)/g, 'url("dist/$1")')
+await writeFile('stylesheet.css', stylesheet)

@@ -30,10 +30,11 @@
     "dist"
   ],
   "scripts": {
-    "prepare": "rm.js -rf \"dist/*\" && mkdir -p dist && cp.js \"*/*.otf\" \"build/css/*.css\" dist && node build/generate",
+    "prepare": "rm.js -rf \"dist/*\" && mkdir -p dist && cp.js \"*/*.otf\" \"build/css/*.css\" dist && cat.js build/css/*.css > stylesheet.css && node build/generate",
     "test": "denolint && node build/test"
   },
   "devDependencies": {
+    "@unixcompat/cat.js": "1.0.1",
     "@unixcompat/cp.js": "2.0.0",
     "@unixcompat/mkdir.js": "1.1.2",
     "@unixcompat/rm.js": "2.0.0",

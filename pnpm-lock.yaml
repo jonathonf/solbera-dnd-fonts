@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@unixcompat/cat.js': 1.0.1
   '@unixcompat/cp.js': 2.0.0
   '@unixcompat/mkdir.js': 1.1.2
   '@unixcompat/rm.js': 2.0.0
@@ -9,6 +10,7 @@ specifiers:
   untap-inprocess: 1.0.0
 
 devDependencies:
+  '@unixcompat/cat.js': 1.0.1
   '@unixcompat/cp.js': 2.0.0
   '@unixcompat/mkdir.js': 1.1.2
   '@unixcompat/rm.js': 2.0.0
@@ -153,6 +155,14 @@ packages:
   /@tootallnate/once/2.0.0:
     resolution: {integrity: sha512-XCuKFP5PS55gnMVu3dty8KPatLqUoy/ZYzDzAGCQ8JNFCkLXzmI7vNHCR+XpbZaMWQK/vQubr7PkYq8g470J/A==}
     engines: {node: '>= 10'}
+    dev: true
+
+  /@unixcompat/cat.js/1.0.1:
+    resolution: {integrity: sha512-oyusoB//yMCqfANquJLkzEMh5vzGDjtZva4uu4KRUT6A7vMs8IzcLWYKEJfCEtrn5M3pwUjBpws3Me7WZ+AFlw==}
+    engines: {node: '>=16'}
+    hasBin: true
+    dependencies:
+      os-lock: 2.0.0
     dev: true
 
   /@unixcompat/cp.js/2.0.0:
@@ -829,6 +839,11 @@ packages:
   /opentype.js/0.4.8:
     resolution: {integrity: sha512-IP76bt1bq601Lu+CIMzws3GUar8Mo5aapyiFadmzPgRUALow0iAjv5tl6E60BPx1c1QdGHsc49r5Tkt4X+dYpA==}
     hasBin: true
+    dev: true
+
+  /os-lock/2.0.0:
+    resolution: {integrity: sha512-gz01iHieWaDXZTtUEc5EZR3aO/g8+h7vk1IPix28jdeUYfWa6CzTeBD1NVtHQLqdwSW3yYSin8lG4lYp6S5Gcw==}
+    requiresBuild: true
     dev: true
 
   /p-map/4.0.0:
