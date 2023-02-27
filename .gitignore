@@ -4,3 +4,6 @@
 #*
 *.swp
 !.gitignore
+dist
+node_modules
+stylesheet.css

@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Zatanna Misdirection";
+    src: url("Zatanna Misdirection.eot");
+    src: local("Zatanna Misdirection Remake"),
+         local("Zatanna Misdirection"),
+         url("Zatanna Misdirection.eot?#iefix") format("embedded-opentype"),
+         url("Zatanna Misdirection.woff2") format("woff2"),
+         url("Zatanna Misdirection.woff") format("woff"),
+         url("Zatanna Misdirection.ttf") format("ttf"),
+         url("Zatanna Misdirection.otf") format("opentype"),
+         url("Zatanna Misdirection.svg#ZatannaMisdirection") format("svg");
+}
+
+@font-face {
+    font-family: "Zatanna Misdirection";
+    src: url("Zatanna Misdirection Bold.eot");
+    src: local("Zatanna Misdirection Remake"),
+         local("Zatanna Misdirection"),
+         url("Zatanna Misdirection Bold.eot?#iefix") format("embedded-opentype"),
+         url("Zatanna Misdirection Bold.woff2") format("woff2"),
+         url("Zatanna Misdirection Bold.woff") format("woff"),
+         url("Zatanna Misdirection Bold.ttf") format("ttf"),
+         url("Zatanna Misdirection Bold.otf") format("opentype"),
+         url("Zatanna Misdirection Bold.svg#ZatannaMisdirection-Bold") format("svg");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Zatanna Misdirection";
+    src: url("Zatanna Misdirection Italic.eot");
+    src: local("Zatanna Misdirection Remake"),
+         local("Zatanna Misdirection"),
+         url("Zatanna Misdirection Italic.eot?#iefix") format("embedded-opentype"),
+         url("Zatanna Misdirection Italic.woff2") format("woff2"),
+         url("Zatanna Misdirection Italic.woff") format("woff"),
+         url("Zatanna Misdirection Italic.ttf") format("ttf"),
+         url("Zatanna Misdirection Italic.otf") format("opentype"),
+         url("Zatanna Misdirection Italic.svg#ZatannaMisdirection-Italic") format("svg");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Zatanna Misdirection";
+    src: url("Zatanna Misdirection Bold Italic.eot");
+    src: local("Zatanna Misdirection Remake"),
+         local("Zatanna Misdirection"),
+         url("Zatanna Misdirection Bold Italic.eot?#iefix") format("embedded-opentype"),
+         url("Zatanna Misdirection Bold Italic.woff2") format("woff2"),
+         url("Zatanna Misdirection Bold Italic.woff") format("woff"),
+         url("Zatanna Misdirection Bold Italic.ttf") format("ttf"),
+         url("Zatanna Misdirection Bold Italic.otf") format("opentype"),
+         url("Zatanna Misdirection Bold Italic.svg#ZatannaMisdirection-BoldItalic") format("svg");
+    font-style: italic;
+    font-weight: bold;
+}
