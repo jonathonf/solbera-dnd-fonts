@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Scaly Sans";
+    src: url("Scaly Sans.eot");
+    src: local("Scaly Sans"),
+         url("Scaly Sans.eot?#iefix") format("embedded-opentype"),
+         url("Scaly Sans.woff2") format("woff2"),
+         url("Scaly Sans.woff") format("woff"),
+         url("Scaly Sans.ttf") format("ttf"),
+         url("Scaly Sans.otf") format("opentype"),
+         url("Scaly Sans.svg#ScalySansRemakeRegular") format("svg");
+}
+
+@font-face {
+    font-family: "Scaly Sans";
+    src: url("Scaly Sans Bold.eot");
+    src: local("Scaly Sans"),
+         url("Scaly Sans Bold.eot?#iefix") format("embedded-opentype"),
+         url("Scaly Sans Bold.woff2") format("woff2"),
+         url("Scaly Sans Bold.woff") format("woff"),
+         url("Scaly Sans Bold.ttf") format("ttf"),
+         url("Scaly Sans Bold.otf") format("opentype"),
+         url("Scaly Sans Bold.svg#ScalySansRemakeBold") format("svg");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Scaly Sans";
+    src: url("Scaly Sans Italic.eot");
+    src: local("Scaly Sans"),
+         url("Scaly Sans Italic.eot?#iefix") format("embedded-opentype"),
+         url("Scaly Sans Italic.woff2") format("woff2"),
+         url("Scaly Sans Italic.woff") format("woff"),
+         url("Scaly Sans Italic.ttf") format("ttf"),
+         url("Scaly Sans Italic.otf") format("opentype"),
+         url("Scaly Sans Italic.svg#ScalySansRemakeItalic") format("svg");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Scaly Sans";
+    src: url("Scaly Sans Bold Italic.eot");
+    src: local("Scaly Sans"),
+         url("Scaly Sans Bold Italic.eot?#iefix") format("embedded-opentype"),
+         url("Scaly Sans Bold Italic.woff2") format("woff2"),
+         url("Scaly Sans Bold Italic.woff") format("woff"),
+         url("Scaly Sans Bold Italic.ttf") format("ttf"),
+         url("Scaly Sans Bold Italic.otf") format("opentype"),
+         url("Scaly Sans Bold Italic.svg#ScalySansRemakeBoldItalic") format("svg");
+    font-style: italic;
+    font-weight: bold;
+}

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Mr Eaves Small Caps";
+    src: url("Mr Eaves Small Caps.eot");
+    src: local("Mr Eaves Small Caps"),
+         url("Mr Eaves Small Caps.eot?#iefix") format("embedded-opentype"),
+         url("Mr Eaves Small Caps.woff2") format("woff2"),
+         url("Mr Eaves Small Caps.woff") format("woff"),
+         url("Mr Eaves Small Caps.ttf") format("ttf"),
+         url("Mr Eaves Small Caps.otf") format("opentype"),
+         url("Mr Eaves Small Caps.svg#MrEavesSCRemakeMedium") format("svg");
+    font-feature-settings: "smcp" on;
+}

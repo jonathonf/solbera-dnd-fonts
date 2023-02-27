@@ -108,6 +108,7 @@
         local("Mr Eaves Small Caps"),
         url('./Mr Eaves Small Caps/Mr Eaves Small Caps.otf'),
         url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Mr%20Eaves/Mr%20Eaves%20Small%20Caps.otf") format("opentype");
+    font-feature-settings: "smcp" on;
 }
 @font-face {
     font-family: "Scaly Sans";

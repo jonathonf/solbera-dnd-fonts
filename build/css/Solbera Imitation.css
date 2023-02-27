@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Solbera Imitation";
+    src: url("Solbera Imitation.eot");
+    src: local("Solbera Imitation"),
+         url("Solbera Imitation.eot?#iefix") format("embedded-opentype"),
+         url("Solbera Imitation.woff2") format("woff2"),
+         url("Solbera Imitation.woff") format("woff"),
+         url("Solbera Imitation.ttf") format("ttf"),
+         url("Solbera Imitation.otf") format("opentype"),
+         url("Solbera Imitation.svg#SolberaImitation") format("svg");
+}

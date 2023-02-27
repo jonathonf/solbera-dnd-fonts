@@ -30,7 +30,7 @@
     "dist"
   ],
   "scripts": {
-    "prepare": "rm.js -rf \"dist/*\" && mkdir -p dist && cp.js \"*/*.otf\" dist && node build/generate",
+    "prepare": "rm.js -rf \"dist/*\" && mkdir -p dist && cp.js \"*/*.otf\" \"build/css/*.css\" dist && node build/generate",
     "test": "denolint && node build/test"
   },
   "devDependencies": {

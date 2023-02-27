@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Bookinsanity";
+    src: url("Bookinsanity.eot");
+    src: local("Bookinsanity Remake"),
+         local("Bookinsanity"),
+         url("Bookinsanity.eot?#iefix") format("embedded-opentype"),
+         url("Bookinsanity.woff2") format("woff2"),
+         url("Bookinsanity.woff") format("woff"),
+         url("Bookinsanity.ttf") format("ttf"),
+         url("Bookinsanity.otf") format("opentype"),
+         url("Bookinsanity.svg#BookinsanityRemakeRegular") format("svg");
+}
+
+@font-face {
+    font-family: "Bookinsanity";
+    src: url("Bookinsanity Bold.eot");
+    src: local("Bookinsanity Remake"),
+         local("Bookinsanity"),
+         url("Bookinsanity Bold.eot?#iefix") format("embedded-opentype"),
+         url("Bookinsanity Bold.woff2") format("woff2"),
+         url("Bookinsanity Bold.woff") format("woff"),
+         url("Bookinsanity Bold.ttf") format("ttf"),
+         url("Bookinsanity Bold.otf") format("opentype"),
+         url("Bookinsanity Bold.svg#BookinsanityRemakeBold") format("svg");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Bookinsanity";
+    src: url("Bookinsanity Italic.eot");
+    src: local("Bookinsanity Remake"),
+         local("Bookinsanity"),
+         url("Bookinsanity Italic.eot?#iefix") format("embedded-opentype"),
+         url("Bookinsanity Italic.woff2") format("woff2"),
+         url("Bookinsanity Italic.woff") format("woff"),
+         url("Bookinsanity Italic.ttf") format("ttf"),
+         url("Bookinsanity Italic.otf") format("opentype"),
+         url("Bookinsanity Italic.svg#BookinsanityRemakeItalic") format("svg");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Bookinsanity";
+    src: url("Bookinsanity Bold Italic.eot");
+    src: local("Bookinsanity Remake"),
+         local("Bookinsanity"),
+         url("Bookinsanity Bold Italic.eot?#iefix") format("embedded-opentype"),
+         url("Bookinsanity Bold Italic.woff2") format("woff2"),
+         url("Bookinsanity Bold Italic.woff") format("woff"),
+         url("Bookinsanity Bold Italic.ttf") format("ttf"),
+         url("Bookinsanity Bold Italic.otf") format("opentype"),
+         url("Bookinsanity Bold Italic.svg#BookinsanityRemakeSmbldItlc") format("svg");
+    font-style: italic;
+    font-weight: bold;
+}

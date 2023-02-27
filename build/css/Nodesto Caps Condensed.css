@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Nodesto Caps Condensed";
+    src: url("Nodesto Caps Condensed.eot");
+    src: local("Nodesto Caps Condensed"),
+         url("Nodesto Caps Condensed.eot?#iefix") format("embedded-opentype"),
+         url("Nodesto Caps Condensed.woff2") format("woff2"),
+         url("Nodesto Caps Condensed.woff") format("woff"),
+         url("Nodesto Caps Condensed.ttf") format("ttf"),
+         url("Nodesto Caps Condensed.otf") format("opentype"),
+         url("Nodesto Caps Condensed.svg#NodestoCapsCondensedRegular") format("svg");
+}
+
+@font-face {
+    font-family: "Nodesto Caps Condensed";
+    src: url("Nodesto Caps Condensed Bold.eot");
+    src: local("Nodesto Caps Condensed"),
+         url("Nodesto Caps Condensed Bold.eot?#iefix") format("embedded-opentype"),
+         url("Nodesto Caps Condensed Bold.woff2") format("woff2"),
+         url("Nodesto Caps Condensed Bold.woff") format("woff"),
+         url("Nodesto Caps Condensed Bold.ttf") format("ttf"),
+         url("Nodesto Caps Condensed Bold.otf") format("opentype"),
+         url("Nodesto Caps Condensed Bold.svg#NodestoCapsCondensedBold") format("svg");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Nodesto Caps Condensed";
+    src: url("Nodesto Caps Condensed Italic.eot");
+    src: local("Nodesto Caps Condensed"),
+         url("Nodesto Caps Condensed Italic.eot?#iefix") format("embedded-opentype"),
+         url("Nodesto Caps Condensed Italic.woff2") format("woff2"),
+         url("Nodesto Caps Condensed Italic.woff") format("woff"),
+         url("Nodesto Caps Condensed Italic.ttf") format("ttf"),
+         url("Nodesto Caps Condensed Italic.otf") format("opentype"),
+         url("Nodesto Caps Condensed Italic.svg#NodestoCapsCondensedItalic") format("svg");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Nodesto Caps Condensed";
+    src: url("Nodesto Caps Condensed Bold Italic.eot");
+    src: local("Nodesto Caps Condensed"),
+         url("Nodesto Caps Condensed Bold Italic.eot?#iefix") format("embedded-opentype"),
+         url("Nodesto Caps Condensed Bold Italic.woff2") format("woff2"),
+         url("Nodesto Caps Condensed Bold Italic.woff") format("woff"),
+         url("Nodesto Caps Condensed Bold Italic.ttf") format("ttf"),
+         url("Nodesto Caps Condensed Bold Italic.otf") format("opentype"),
+         url("Nodesto Caps Condensed Bold Italic.svg#NodestoCapsCondensedBoldItalic") format("svg");
+    font-style: italic;
+    font-weight: bold;
+}
